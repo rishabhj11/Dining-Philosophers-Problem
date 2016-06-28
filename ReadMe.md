@@ -1,5 +1,5 @@
 # Setup:
-The zip contains the code files- philosopher.c, sem.c, sem.h and the make file-Makefile, in order to
+The repository contains the code files- philosopher.c, sem.c, sem.h and the make file-Makefile, in order to
 compile the code. 
 
 # Steps to follow:
