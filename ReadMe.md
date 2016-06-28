@@ -1,14 +1,14 @@
-Setup:
+# Setup:
 The zip contains the code files- philosopher.c, sem.c, sem.h and the make file-Makefile, in order to
 compile the code. 
 
-Steps to follow:
+# Steps to follow:
 > To compile: $ make
 > To run: $ ./code <number of philosophers> <number of iterations>
 For Example: ./code 5 2
 > To clean: $ make clean
 
-Details of implementation:
+# Details of implementation:
 The code creates a number of philosopher processes that work in order to solve the dining philosopher
 problem.
 The synchronization among the processes was achieved using barrier, mutexes and semaphores. These
@@ -21,6 +21,6 @@ semaphores (one for each philosopher process).
 above.
 > At the end of the program, all the process exit after all the operations are complete.
 
-References:
+# References:
 1. https://computing.llnl.gov/tutorials/pthreads/man/pthread_mutexattr_init.txt
 2. https://www.eecis.udel.edu/~bmiller/cis361/2011f/slides/Classics.pdf
